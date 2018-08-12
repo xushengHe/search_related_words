@@ -1,21 +1,21 @@
-1.½«¸ÃÎÄ¼þ¼ÐÏÂµÄ4¸öÎÄ¼þ£¬Ò»Í¬¿½±´µ½ubuntuÖÐµÄÄ³Ò»¸öÄ¿Â¼£¬Èç/mydataÄ¿Â¼£¬ubuntu½¨Á¢Ä¿Â¼¿É²ÉÓÃÈçÏÂÃüÁî
+1.å°†è¯¥æ–‡ä»¶å¤¹ä¸‹çš„4ä¸ªæ–‡ä»¶ï¼Œä¸€åŒæ‹·è´åˆ°ubuntuä¸­çš„æŸä¸€ä¸ªç›®å½•ï¼Œå¦‚/mydataç›®å½•ï¼Œubuntuå»ºç«‹ç›®å½•å¯é‡‡ç”¨å¦‚ä¸‹å‘½ä»¤
 cd /
 mkdir mydata
 
-2.ÐÞ¸Ädownpull.sh related.sh run_staticÈý¸öÎÄ¼þµÄÈ¨£¬¿É²ÉÓÃÃüÁîÈçÏÂ£º
+2.ä¿®æ”¹downpull.sh related.sh run_staticä¸‰ä¸ªæ–‡ä»¶çš„æƒé™ï¼Œå¯é‡‡ç”¨å‘½ä»¤å¦‚ä¸‹ï¼š
 chmod 777 downpull.sh related.sh run_static
 
-3.´ò¿ªinput.txtÎÄµµ£¨Í¨¹ýÓÒ¼üÕÒµ½gedit´ò¿ª»òÕßÔÚÃüÁîÐÐÓÃvim´ò¿ª£©£¬ÔÚÀïÃæ¶ÔËÑË÷Ìõ¼þ½øÐÐÅäÖÃ£º
-µÚÒ»ÐÐ: Ô¤Éè¶¨µÄËÑË÷µ½µÄ´ÊµÄÊýÄ¿
-µÚ¶þÐÐ£º´ýËÑË÷µÄÖ÷¹Ø¼ü´Ê
-µÚÈýÐÐ£ºÆäÓà°üº¬´Ê1
-µÚËÄÐÐ£ºÆäÓà°üº¬´Ê2
-¡£¡£      ¡£¡£
+3.æ‰“å¼€input.txtæ–‡æ¡£ï¼ˆé€šè¿‡å³é”®æ‰¾åˆ°geditæ‰“å¼€æˆ–è€…åœ¨å‘½ä»¤è¡Œç”¨vimæ‰“å¼€ï¼‰ï¼Œåœ¨é‡Œé¢å¯¹æœç´¢æ¡ä»¶è¿›è¡Œé…ç½®ï¼š
+ç¬¬ä¸€è¡Œ: é¢„è®¾å®šçš„æœç´¢åˆ°çš„è¯çš„æ•°ç›®
+ç¬¬äºŒè¡Œï¼šå¾…æœç´¢çš„ä¸»å…³é”®è¯
+ç¬¬ä¸‰è¡Œï¼šå…¶ä½™åŒ…å«è¯1
+ç¬¬å››è¡Œï¼šå…¶ä½™åŒ…å«è¯2
+ã€‚ã€‚      ã€‚ã€‚
 
-ÆäÓà°üº¬´Ê¿É¸ù¾ÝÇé¿öÍùÏÂÃæÒÀ´ÎÌí¼Ó£¬°´ÕÕÈçÉÏË³ÐòÉè¶¨ºÃËÑË÷Ìõ¼þ¡£×¢Òâ¸÷¸ö´ÊÓ¦¸Ã¶¥×ÅÎÄµµµÄ×ó±ß½çÊäÈë£¬×ó±ß²»ÒªÁôÓÐ¿Õ¼ä¡£
+å…¶ä½™åŒ…å«è¯å¯æ ¹æ®æƒ…å†µå¾€ä¸‹é¢ä¾æ¬¡æ·»åŠ ï¼ŒæŒ‰ç…§å¦‚ä¸Šé¡ºåºè®¾å®šå¥½æœç´¢æ¡ä»¶ã€‚æ³¨æ„å„ä¸ªè¯åº”è¯¥é¡¶ç€æ–‡æ¡£çš„å·¦è¾¹ç•Œè¾“å…¥ï¼Œå·¦è¾¹ä¸è¦ç•™æœ‰ç©ºé—´ã€‚
 
-4.¿ªÊ¼½øÐÐËÑË÷,Ö´ÐÐÒÔÏÂÃüÁî£º
+4.å¼€å§‹è¿›è¡Œæœç´¢,æ‰§è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
 ./run_static
 
-5.µ±ËÑË÷µ½µÄ´ÊµÄÊýÄ¿´ïµ½input.txtÖÐÔ¤Éè¶¨µÄÊýÁ¿ »òÕß Ñ­»·ËÑË÷µÄÊ±ºò·ûºÏÒªÇóµÄ´Ê¶¼ÕÒÍêÁË£¬³ÌÐò¼´»áÍË³ö¡£
-µÈ´ý³ÌÐòÍË³öºó£¬mydataÄ¿Â¼ÏÂ½«»á¶à³öÀ´Á½¸ötxtÎÄ¼þ£¬W´òÍ·ÎÄ¼þµÄÔòÊÇËÑË÷µ½µÄ´Ê£¬C´òÍ·ÎÄ¼þµÄÔòÊÇ¶ÔÓ¦´ÊµÄÖØ¸´Æµ´Î¡£
+5.å½“æœç´¢åˆ°çš„è¯çš„æ•°ç›®è¾¾åˆ°input.txtä¸­é¢„è®¾å®šçš„æ•°é‡ æˆ–è€… å¾ªçŽ¯æœç´¢çš„æ—¶å€™ç¬¦åˆè¦æ±‚çš„è¯éƒ½æ‰¾å®Œäº†ï¼Œç¨‹åºå³ä¼šé€€å‡ºã€‚
+ç­‰å¾…ç¨‹åºé€€å‡ºåŽï¼Œmydataç›®å½•ä¸‹å°†ä¼šå¤šå‡ºæ¥ä¸¤ä¸ªtxtæ–‡ä»¶ï¼ŒWæ‰“å¤´æ–‡ä»¶çš„åˆ™æ˜¯æœç´¢åˆ°çš„è¯ï¼ŒCæ‰“å¤´æ–‡ä»¶çš„åˆ™æ˜¯å¯¹åº”è¯çš„é‡å¤é¢‘æ¬¡ã€‚
